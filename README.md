@@ -5,4 +5,4 @@
 3. rake db:create
 4. rake db:migrate
 5. rake db:seed
-6  rake utils:seed
+6.  rake utils:seed
