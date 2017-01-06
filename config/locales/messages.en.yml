@@ -1,0 +1,8 @@
+"en":
+  messages:
+    confirm: are you sure?
+    listing: wellcome
+    errors: errors...
+    created: Item created with success!
+    updated: Item updated with success!
+    destroyed: Item destroyed with success!
