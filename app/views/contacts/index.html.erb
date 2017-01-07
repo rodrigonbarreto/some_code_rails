@@ -20,7 +20,7 @@
       <% @contacts.each do |contact| %>
         <tr style="background: <%= cycle('white', '#f0f0f5') %>">
           <td><%= contact.name %></td>
-          <td><%= contact.kind.description %></td>
+          <td><%=  show_kind(contact.kind)  %></td>
           <td><%= link_to t('buttons.edit'), edit_contact_path(contact) %></td>
           <td><%= link_to t('buttons.destroy'), contact, method: :delete, data: { confirm: t('messages.confirm') } %></td>
         </tr>
