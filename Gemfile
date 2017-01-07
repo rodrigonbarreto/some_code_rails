@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.3.1'
 
 gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -7,7 +7,7 @@ gem 'bundler', '>= 1.8.4'
 gem 'rails-assets-bootstrap', '3.3.6', source: 'https://rails-assets.org'
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 
-gem 'rails', '4.2.5'
+gem 'rails', '5.0.0'
 # i18n for kaminari
 gem 'kaminari-i18n'
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4
